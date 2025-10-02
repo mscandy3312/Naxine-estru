@@ -1,0 +1,24 @@
+{
+  "name": "mi-api-oauth",
+  "version": "1.0.0",
+  "description": "API Express con OAuth, roles y MySQL AWS RDS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
